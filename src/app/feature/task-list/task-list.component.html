@@ -1,0 +1,259 @@
+<div class="task-list-container">
+  <div class="row">
+    <div class="d-flex step-container">
+      <div class="steps">
+        <img src="../../../assets/tasks.png" alt="" />
+        <p class="active">List Tasks</p>
+      </div>
+      <div class="steps">
+        <img src="../../../assets/task-list/board.png" alt="" />
+        <p>Boards</p>
+      </div>
+      <div class="steps">
+        <img src="../../../assets/task-list/calendar.png" alt="" />
+        <p>Calendar</p>
+      </div>
+      <div class="steps">
+        <img src="../../../assets/task-list/gantt.png" alt="" />
+        <p>Gantt</p>
+      </div>
+      <div class="steps">
+        <img src="../../../assets/task-list/timeline.png" alt="" />
+        <p>Timeline</p>
+      </div>
+      <div class="steps">
+        <img src="../../../assets/task-list/activity.png" alt="" />
+        <p>Activity</p>
+      </div>
+
+      <div class="form ml-auto">
+        <input
+          type="text"
+          class="form-control form-input search-box"
+          placeholder="Search Tasks"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="d-flex bread-container">
+      <div class="bread">
+        <p>Space</p>
+      </div>
+      <div class="bread bread-icon">
+        <img width="20" src="../../../assets/arrow.png" alt="" />
+      </div>
+      <div class="bread">
+        <p>Name Space</p>
+      </div>
+      <div class="bread bread-icon">
+        <img width="20" src="../../../assets/arrow.png" alt="" />
+      </div>
+      <div class="bread">
+        <p>Name Task</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-7">
+      <div class="task-form">
+        <form>
+          <div class="form-group">
+            <span class="form-label">Name Task</span>
+            <input class="form-control" type="text" placeholder="Name Task" />
+          </div>
+          <div class="form-group">
+            <span class="form-label">Description</span>
+            <input
+              class="form-control text-area"
+              type="text"
+              placeholder="Description"
+            />
+          </div>
+          <div class="form-group">
+            <p class="form-label">Sub Tasks Todo</p>
+            <div class="sub-task-container">
+                <input class="form-control" type="text" placeholder=". | Type Sub Task" />
+                <img src="../../../assets/task-list/flag.png" alt="">
+                <img src="../../../assets/task-list/attachment.png" alt="">
+                <img src="../../../assets/task-list/clock.png" alt="">
+                <img class="avatar" src="../../../assets/task-list/avatar.png" alt="">
+                <button type="button" class="submit-btn">Save</button>
+            </div>
+          </div>
+          <div class="form-btn">
+            <button type="button" class="submit-btn mt-20">Add Task</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="attachment-container">
+        <div class="d-flex attachment-header">
+            <h4 class="title">Attachments</h4>
+            <div>
+                <img src="../../../assets/task-list/grid.png" alt="">
+                <img src="../../../assets/task-list/menu.png" alt="">
+                <div class="download-container">
+                    <button><img src="../../../assets/task-list/download.png" alt=""> Download All</button>
+                </div>
+            </div>
+        </div>
+        <div class="attachment-body">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="user-card">
+                        <div class="card-block">
+                          <div class="user-image">
+                            <img src="../../../assets/task-list/at-1.png" alt="" />
+                            <img class="at-avatar" src="../../../assets/task-list/at-avatar-1.png" alt="">
+                          </div>
+                          <h6 class="text-center">Frame 6.jpg</h6>
+                          <p class="text-center">Sep 7 at 2:42 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user-card">
+                        <div class="card-block">
+                          <div class="user-image">
+                            <img src="../../../assets/task-list/at-2.png" alt="" />
+                            <img class="at-avatar" src="../../../assets/task-list/at-avatar-2.png" alt="">
+                          </div>
+                          <h6 class="text-center">Frame 6.jpg</h6>
+                          <p class="text-center">Sep 7 at 2:42 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user-card">
+                        <div class="card-block">
+                          <div class="user-image">
+                            <img src="../../../assets/task-list/at-3.png" alt="" />
+                            <img class="at-avatar" src="../../../assets/task-list/at-avatar-3.png" alt="">
+                          </div>
+                          <h6 class="text-center">Frame 6.jpg</h6>
+                          <p class="text-center">Sep 7 at 2:42 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user-card">
+                        <div class="card-block">
+                          <div class="user-image">
+                            <img src="../../../assets/task-list/at-4.png" alt="" />
+                            <img class="at-avatar" src="../../../assets/task-list/at-avatar-4.png" alt="">
+                          </div>
+                          <h6 class="text-center">Frame 6.jpg</h6>
+                          <p class="text-center">Sep 7 at 2:42 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-md-5">
+        <div class="row">
+            <div class="d-flex task-status-container">
+                <div class="status">
+                  <h4>Created</h4>
+                  <p>Sep 2, 9:06 pm</p>
+                </div>
+                <div class="status">
+                    <h4>Time Tracked</h4>
+                    <p><img src="../../../assets/task-list/play.png" width="20" alt="">
+                     00:00
+                    </p>
+                  </div>
+                  <div class="status">
+                    <h4>Start Date</h4>
+                    <p>Sep 3, 9:00 pm</p>
+                  </div>
+                  <div class="status br-none">
+                    <h4>Due Date</h4>
+                    <p>Sep 4, 9:00 pm</p>
+                  </div>
+              </div>
+        </div>
+
+        <div class="row">
+            <div class="activity-container">
+                <div class="col-md-12">
+                    <h4 class="title">Last Activity By Task</h4>
+                </div>
+                <div class="col-md-12">
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Created This Task</p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Assigned To: <span class="user">Kenneth Jordan</span></p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Change Due Date from 6 Days Ago</p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Created Sub Task: «Change Style Now»</p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Assigned To: <span class="user">Kenneth Jordan</span></p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Chandge Due Date from 6 Days Ago</p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                    <div class="st-container">
+                        <p class="user">You</p>
+                        <p class="pl-4">Created Sub Task: «Change Style Now»</p>
+                        <p>Sep 3, 16:00 pm</p>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="comments-container">
+                <div class="comment-write-section">
+                    <h4 class="title">Comments</h4>
+                    <div class="d-flex py-20">
+                        <div>
+                            <img src="../../../assets/task-list/at-avatar-1.png" alt="">
+                        </div>
+                        <div class="comment-box">
+                            <div class="comment-container">
+                                <p class="user">You</p>
+                                <p class="pl-4">Commented</p>
+                                <p>Just Now</p>
+                            </div>
+                            <div>
+                                <p class="comment">Internet Advertising What Went Wrong</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="comment-btn-section">
+                    <div class="comment-btn-container">
+                        <h4 class="title">Comment on Task</h4>
+                        <button type="button" class="submit-btn ml-auto">Add Task</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+  </div>
+</div>

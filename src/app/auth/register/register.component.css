@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .container {
+    padding: 0 15px;
+    justify-content: center;
+    background: #fff;
+    max-width: 100% !important;
+  }
+  
+  .register-page {
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .register-page .text {
+    margin-top: 100px;
+  }
+  
+  .register-page h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  
+  .register-page h4 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+  
+  .register-page p {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  form input {
+    height: 55px;
+    width: 100%;
+    background-color: #fff7ed;
+    border: 1px solid #fff7ed;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    padding: 0 14px;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-color: #f4711e;
+  }
+  
+  ::placeholder {
+    color: #fab777;
+    font-size: 1.063rem;
+  }
+  
+  .link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+  
+  .link .register {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #f4711e;
+    padding: 15px 0;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  form a {
+    text-decoration: none;
+  }
+  
+  .forgot {
+    align-self: end;
+    color: #b0b0b0;
+    font-size: 13px;
+  }
+  
+  .mb-10 {
+    margin-bottom: 10px !important;
+  }
+  
+  .fs-30 {
+    font-size: 30px !important;
+  }
+  
+  .external-text {
+    font-size: 16px;
+    margin-top: 30px;
+    color: #b5b5b5;
+    align-self: center;
+  }
+  
+  .icons {
+    align-self: center;
+    margin-top: 30px;
+  }
+  
+  .icons img {
+    padding: 0px 10px;
+    width: 48px;
+  }
+  
+  .navbar {
+    min-height: 125px;
+  }
+  
+  ul li {
+    padding: 15px;
+  }
+  
+  .nav-item {
+    border-bottom: 2px solid transparent;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .nav-item.active {
+    font-weight: 600;
+  }
+  
+  .nav-item.active,
+  .nav-item:hover {
+    border-color: #f4711e;
+  }
+  
+  .dropdown {
+    border-bottom: none !important;
+  }
+  
+  .bl-1 {
+    border-left: 1px solid #000;
+    border-bottom: none !important;
+  }
+  
+  .ml-30 {
+    margin-left: 30px;
+  }
+  
+  .mr-30 {
+    margin-right: 30px;
+  }
+  
+  .br-btn {
+    border: 2px solid #f4711e;
+  }
+  
+  .mobile-logo {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .register-page {
+      flex-direction: column;
+    }
+  
+    .register-page .text {
+      margin-bottom: 30px;
+    }
+  
+    .navbar {
+      display: none;
+    }
+  
+    .register-page h1 {
+      font-size: 26px;
+    }
+  
+    .register-page h4 {
+      font-size: 21px;
+    }
+  
+    .register-page p {
+      font-size: 14px;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    .mobile-logo {
+      display: block;
+      width: 160px;
+      margin: 10px 0px;
+    }
+  
+    .register-page .text {
+      margin-top: 10px;
+    }
+  }
+  
